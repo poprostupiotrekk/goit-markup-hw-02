@@ -1,10 +1,168 @@
+:root {
+  --backgroud-page-color: #e5e5e5;
+  --brand-main-color: #2196f3;
+  --brand-color-background: #2f303a;
+  --brand-color-black: #212121;
+  --brand-color-grey: #f5f4fa;
+  --brand-color-white: #ffffff;
+  --brand-color-contact: #757575;
+  --backgroud-color-another: #ececec;
+}
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-black);
+  background-color: var(--brand-color-white);
+}
+span {
+  color: var(--brand-main-color);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+p {
+  font-weight: 400;
+  color: var(--brand-color-contact);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.header {
+  background-color: var(--brand-color-white);
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-
-title {
-    font-family: 'Roboto';
-    font-weight: 900;
-} 
+  width: 100%;
+}
+.logo-black,
+.logo-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.logo-black {
+  color: var(--brand-color-black);
+}
+.logo-white {
+  color: var(--brand-color-white);
+}
+/*przyciski nawigacyjne*/
+.link-nav,
+.link-contact-header {
+  font-weight: 500;
+  color: var(--brand-color-black);
+}
+.link-nav:focus,
+.link-nav:hover {
+  color: var(--brand-main-color);
+}
+.link-contact-header {
+  font-weight: 500;
+  color: var(--brand-color-contact);
+}
+.link-contact-header:focus,
+.link-contact-header:hover {
+  color: var(--brand-main-color);
+}
+/* sekcja zamów*/
+.order {
+  background-color: var(--brand-color-background);
+  height: 600px;
+  letter-spacing: 0.6em;
+  text-align: center;
+}
+/*tekst na szarym tle */
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.55;
+  color: var(--brand-color-white);
+}
+/*przycisk zamów*/
+.link-order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  background-color: var(--brand-main-color);
+  color: var(--brand-color-white);
+  width: 200px;
+  height: 50px;
+}
+/*przyciski nawigacyjne portfolio*/
+.link-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--brand-color-black);
+  background-color: var(--brand-color-grey);
+  height: 38px;
+  border-radius: 4px;
+}
+.link-button:focus,
+.link-button:hover {
+  color: var(--brand-color-white);
+  background-color: var(--brand-main-color);
+}
+.head-1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.head-2 {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.head-3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.head-4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--brand-color-grey);
+}
+.name-1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.name-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer {
+  background-color: var(--brand-color-background);
+  height: 252px;
+  color: var(--brand-color-white);
+  font-size: 14px;
+  line-height: 171%;
+}
+.link-nav-footer {
+  font-weight: 400;
+  color: var(--brand-color-white);
+}
+.link-nav-footer:focus,
+.link-nav-footer:hover {
+  color: var(--brand-main-color);
+}
