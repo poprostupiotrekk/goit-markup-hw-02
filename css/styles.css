@@ -5,6 +5,7 @@
   --brand-color-black: #212121;
   --brand-color-grey: #f5f4fa;
   --brand-color-white: #ffffff;
+  --nav-footer-color: #999999;
   --brand-color-contact: #757575;
   --backgroud-color-another: #ececec;
 }
@@ -23,7 +24,9 @@ button {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-color-black);
-  background-color: var(--brand-color-white);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 span {
   color: var(--brand-main-color);
@@ -35,22 +38,14 @@ h2 {
   text-align: center;
 }
 p {
-  font-weight: 400;
   color: var(--brand-color-contact);
   line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-.header {
-  background-color: var(--brand-color-white);
-
-  width: 100%;
 }
 .logo-black,
 .logo-white {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  letter-spacing: 0.03em;
 }
 .logo-black {
   color: var(--brand-color-black);
@@ -79,7 +74,6 @@ p {
 /* sekcja zamów*/
 .order {
   background-color: var(--brand-color-background);
-  height: 600px;
   letter-spacing: 0.6em;
   text-align: center;
 }
@@ -92,28 +86,32 @@ p {
 }
 /*przycisk zamów*/
 .link-order-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   background-color: var(--brand-main-color);
   color: var(--brand-color-white);
-  width: 200px;
-  height: 50px;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
 }
 /*przyciski nawigacyjne portfolio*/
 .link-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   color: var(--brand-color-black);
   background-color: var(--brand-color-grey);
-  height: 38px;
   border-radius: 4px;
 }
 .link-button:focus,
 .link-button:hover {
   color: var(--brand-color-white);
   background-color: var(--brand-main-color);
+}
+.what-we-do {
+  background-color: var(--brand-color-white);
 }
 .head-1 {
   font-weight: 700;
@@ -131,10 +129,8 @@ p {
   letter-spacing: 0.06em;
 }
 .head-4 {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--brand-color-grey);
@@ -143,24 +139,27 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .name-2 {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+}
+.team-bacground {
+  background-color: var(--brand-color-white);
+  width: 270px;
+  height: 368px;
 }
 .footer {
   background-color: var(--brand-color-background);
-  height: 252px;
+}
+.adress {
+  font-style: normal;
   color: var(--brand-color-white);
   font-size: 14px;
   line-height: 171%;
 }
 .link-nav-footer {
-  font-weight: 400;
-  color: var(--brand-color-white);
+  color: var(--nav-footer-color);
 }
 .link-nav-footer:focus,
 .link-nav-footer:hover {
